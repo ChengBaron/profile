@@ -1,0 +1,82 @@
+body {
+  color: rgb(100, 150, 250);
+  background: #EBEBEB;
+  font-family: 'Signika';
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+h1, h2, h3 {
+  color: rgb(100, 100, 100);
+  font-family: 'Bangers', cursive;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 2.0;
+}
+
+a {
+  color: blue;
+  font-family: 'Bangers';
+  text-decoration: none;
+}
+
+a:hover {
+  background_color: rgb(220, 220, 220);
+  font-family: 'Pontano Sans', sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  color: rgb(100, 100, 100);
+  background-color: #EBEBEB;
+  width: 544px;
+  margin: 0 auto;
+}
+
+.card-white {
+  background-color: white;  /* White background */
+  padding: 20px;      /* Internal space */
+  border: 2px solid rgba(0, 0, 0, 0.1); /* OR subtle border */
+  border-radius: 4px; /* Small radius */
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 500px;        /* Set the width */
+  margin-bottom: 20px;
+  /*margin: 0 auto;*/
+}
+
+.text-center {
+  text-align: center;
+}
+
+#img-profile {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #cccccc;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.film_poster {
+  background-color: white;  /* White background */
+  width: 210px;        /* Set the width */
+  margin: 0 auto;      /* Set automatic margins on right/left */
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/*.film_card {
+  background-color: white;
+  padding: 30px;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 0 auto;
+}*/
